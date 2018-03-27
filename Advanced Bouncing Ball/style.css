@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+  background-color: black;
+}
+
+.container {
+  left: 50%;
+  top: 50px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.controls {
+  font-size: 2rem;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.go {
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.speed {
+  display: none;
+  font-size: 2rem;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.speedUp {
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  color: transparent;
+  text-shadow: 0 0 2px white;
+}
