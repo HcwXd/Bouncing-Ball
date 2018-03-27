@@ -8,6 +8,8 @@ This is a simple JavaScript practice without any framework. This pracitce contai
   - Advanced version use an `input` range from 10 to 1000 to determine how many balls will be generate. Also, you can speed up the ball's movement by simply clicking the button.
 - Ball Eating Game
   - Game version generate a evil ball object which inherit the `Ball` prototype to eat other bouncing balls. When evil ball successfully eat a regulary ball, its speed will be increase and also itself will get bigger.
+- Random Drawing Generator
+  - Drawing version randomly generate picture by keeping track of the bouncing ball's moving path.
 
 > You can play the Ball Eating Game [here](https://codepen.io/HuCW/pen/OvOEZP) at codepen. Hope you enjoy it :)
 
